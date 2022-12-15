@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Video Tutorial</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="./js/cryptojs_v3.1.2.js" type="text/javascript"></script>
+    <script src="./js/xapiwrapper.js" type="text/javascript"></script>
+    <script src="./js/xapi_video_processer.js" type="text/javascript"></script>
+    <script src="./js/xapi_user_details.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="video-container">
+      <video controls="true" id="mediaPlayer">Your browser does not support HTML5 video.
+        <source src="videos/input_video.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="form-container" id="form_container">
+      <form id="test_form" onsubmit="return submitTest()">
+        <div id="test_container"></div>
+        <input id="submit_button" type="submit">
+      </form>
+    </div>
+    <script>const csvDataInArray = [['241', 'Durch was wird die Tröpfcheninfektion nicht ausgelöst', 'Verschmutze Hände', '[Niesen,Husten]'], ['259', 'Wie vermeidet man eine Schmierinfektion', 'Regelmäßiges Händewaschen', '[Leises Sprechen,Tragen eines Mund-Nase-Schutzes]']]</script>
+    <script src="./js/tests_organizer.js" type="text/javascript"></script>
+    <script src="./js/xapi_tests_processer.js" type="text/javascript"></script>
+    <script src="./js/video_organizer.js" type="text/javascript"></script>
+  </body>
+</html>
